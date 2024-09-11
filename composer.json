@@ -1,0 +1,12 @@
+{
+  "autoload": {
+    "psr-4": {
+      "repo\\": "repo/",
+      "services\\": "services/",
+      "controllers\\": "controllers/",
+      "models\\": "models/",
+      "database\\": "database/",
+      "mapper\\" : "mapper/"
+    }
+  }
+}
