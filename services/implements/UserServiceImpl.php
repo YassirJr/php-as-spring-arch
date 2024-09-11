@@ -3,14 +3,14 @@
 namespace services\implements;
 
 use models\User;
-use repo\implements\UserRepositoryImpl;
+use repo\UserRepository;
 use services\UserService;
 
 class UserServiceImpl implements UserService
 {
-    private UserRepositoryImpl $userRepository;
+    private UserRepository $userRepository;
 
-    public function __construct(UserRepositoryImpl $userRepository){
+    public function __construct(UserRepository $userRepository){
         $this->userRepository = $userRepository;
     }
 
